@@ -10,4 +10,4 @@ mmd のinsaneなデータをまともに取り扱うためのプログラムを�
 
 ## USD #とは
 アメリカドルのことではありません。
-Universal Scene Descriptionの頭文字をとってUSDですが、詳しくは[本家](https://openusd.org/release/index.html)や[本家のAPI](https://openusd.org/dev/api/index.html)を見てください。
+Universal Scene Descriptionの頭文字をとってUSDですが、詳しくは[本家](https://openusd.org/release/index.html)や[本家のAPI](https://openusd.org/release/api/index.html)を見てください。
