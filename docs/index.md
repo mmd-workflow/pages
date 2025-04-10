@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Punchline
-      link: /content/_index.md
+      link: /content/about.md
 
 features:
   - title: MMD USD File Format Plugin
