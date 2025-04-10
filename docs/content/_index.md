@@ -7,11 +7,6 @@ draft: false
 ## mmd-workflow #とは
 mmd のinsaneなデータをまともに取り扱うためのプログラムを開発しています。
 
-現在公開しているプログラムは
-
-- [usdMMDPlugins](./usdmmd)
-
-です。
 
 ## USD #とは
 アメリカドルのことではありません。
