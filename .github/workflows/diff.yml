@@ -1,0 +1,43 @@
+name: Export Changed Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  export-changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find Changed Files
+        id: find_changed_files
+        run: |
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No changes detected."
+            exit 0
+          fi
+          echo "::set-output name=changed_files::$CHANGED_FILES"
+
+      - name: Create Directory for Changed Files
+        run: mkdir changed_files
+
+      - name: Copy Changed Files
+        if: steps.find_changed_files.outputs.changed_files != ''
+        run: |
+          while read file; do
+            cp --parents "$file" changed_files/
+          done <<< "${{ steps.find_changed_files.outputs.changed_files }}"
+
+      - name: Upload Changed Files
+        if: steps.find_changed_files.outputs.changed_files != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: changed-files
+          path: changed_files/
