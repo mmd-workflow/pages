@@ -9,14 +9,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/content/about.md' }
+      { text: 'About', link: '/content/about.md' },
+      { text: 'Plugins', link: '/content/ffplugin/test.md' },
     ],
 
     sidebar: [
       {
-        text: 'Articles',
+        text: 'Introduction',
         items: [
           { text: 'About', link: '/content/about.md' }
+        ]
+      },
+      {
+        text: 'USD File Format Plugin',
+        items: [
+          {text: 'test', link: '/content/ffplugin/test.md'},
         ]
       }
     ],
