@@ -8,8 +8,8 @@ hero:
   tagline: List of Plugins Provided by the MMD Workflow
   actions:
     - theme: brand
-      text: Punchline
-      link: /content/about.md
+      text: Get Started
+      link: /content/ffplugin/about.md
 
 features:
   - title: MMD USD File Format Plugin
