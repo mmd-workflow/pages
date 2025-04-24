@@ -10,7 +10,7 @@ date: 2025-04-24
 
 ## 1. USD を用意する
 
-`usdMMDPlugins` は、.pmm .pmx 等で表現されたデータフォーマットを
+`usdMMDPlugins` は、.pmm .pmx ファイルを
 OpenUSD が扱えるようにするための拡張プラグインです。
 
 まずは OpenUSD をビルドし、ビルド済みデータを用意する必要があります。
@@ -30,7 +30,7 @@ Windows 環境 + OpenUSD v24.11 の環境をご用意ください。
 
 Comming soon
 
-## 3. USD に `usdMMDPlugins` を読んでもらう
+## 3. USD に `usdMMDPlugins` を追加する
 
 USD に `usdMMDPlugins` を認識してもらうために、プラグインを決まった場所に配置します。
 
@@ -67,4 +67,4 @@ usdcat path/to/Scene.pmm
 ```sh
 usdcat --flatten path/to/Scene.pmm -o path/to/Scene.usd
 ```
-などのコマンドラインを使って、展開された USD シーングラフを標準出力に表示したり、 `usdMMDPlugins` によってオンザフライで動的に生成された USD シーンを、単一の USD ファイルとして書きだす事が可能になります。
+などのコマンドラインを使って、読み込まれた USD シーングラフを標準出力に表示したり、 `usdMMDPlugins` によって動的に生成された USD シーンを、単一の USD ファイルとして書きだす事が可能になります。
