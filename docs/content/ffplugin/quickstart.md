@@ -28,7 +28,7 @@ Windows 環境 + OpenUSD v24.11 の環境をご用意ください。
 
 使用する USD のバージョンに対応する `usdMMDPlugins` をダウンロードしてください。
 
-- [for USD v24.11, Windows x64](https://github.com/mmd-workflow/pages/releases/download/1.0.0-rc5/usdMMDPlugins-USD2411-8107b95-1.0.0-win64.tar.zst)
+- [for USD v24.11, Windows x64](https://github.com/mmd-workflow/pages/releases/download/0.1.0/usdMMDPlugins-USD2411-8107b95-1.0.0-win64.tar.zst)
 
 ## 3. USD に `usdMMDPlugins` を追加する
 
