@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /content/ffplugin/about.md
+      link: /content/ffplugin/quickstart.md
 
 features:
   - title: MMD USD File Format Plugin
