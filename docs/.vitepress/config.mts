@@ -24,7 +24,7 @@ export default defineConfig({
         text: 'USD File Format Plugin',
         items: [
           {text: 'Overview', link: '/content/ffplugin/about.md'},
-          {text: 'Distribution', link: '/content/ffplugin/dist.md'},
+          {text: 'Quick Start', link: '/content/ffplugin/quickstart.md'},
           {text: 'How to Build', link: '/content/ffplugin/build.md'},
         ]
       }
