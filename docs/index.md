@@ -3,6 +3,20 @@
 layout: home
 
 head:
+  # Twitter
+  - - meta
+    - name: twitter:card
+    - content: summary_large_image
+  - - meta
+    - name: twitter:title
+    - content: 'MMD Workflow'
+  - - meta
+    - name: twitter:description
+    - content: 'MMD Workflow Tools'
+  - - meta
+    - name: twitter:image
+    - content: '/images/logo_og.png'
+
   # OpenGraph
   - - meta
     - property: og:title
@@ -18,21 +32,7 @@ head:
       content: 'website'
   - - meta
     - property: og:image
-      content: 'https://mmd-workflow.github.io/pages/images/logo_og.png'
-  
-  # Twitter
-  - - meta
-    - name: twitter:card
-    - content: summary_large_image
-  - - meta
-    - name: twitter:title
-    - content: 'MMD Workflow'
-  - - meta
-    - name: twitter:description
-    - content: 'MMD Workflow Tools'
-  - - meta
-    - name: twitter:image
-    - content: 'https://mmd-workflow.github.io/pages/images/logo_og.png'
+      content: '/images/logo_og.png'
 
 
 hero:
