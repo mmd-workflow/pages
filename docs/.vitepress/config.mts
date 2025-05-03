@@ -20,9 +20,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:description', content: 'MMD Workflow Tools' }],
     ['meta', { name: 'twitter:image', content: 'https://mmd-workflow.github.io/pages/logo_og.png' }],
   ],
-  appearance: {
-    initialValue: 'undefined'
-  },
+ 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
