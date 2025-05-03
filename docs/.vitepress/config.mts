@@ -2,12 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/pages/",
-  title: "MMD Workflow",
-  description: "MMD Workflow Tools",
+  base: '/pages/',
+  title: 'MMD Workflow',
+  description: 'MMD Workflow Tools',
   head:[
-    ["meta", { property: "og:image", content: './images/logo_og.png' }],
-    ["meta", { property: "og:site_name", content: "MMD Workflow" }],
+    // OpenGraph Meta Tags
+    ['meta', { property: 'og:title', content: 'MMD Workflow' }],
+    ['meta', { property: 'og:description', content: 'MMD Workflow Tools' }],
+    ['meta', { property: 'og:url', content: 'https://mmd-workflow.github.io/pages/' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: './images/logo_og.png' }],
+    // Twitter Meta Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'MMD Workflow' }],
+    ['meta', { name: 'twitter:description', content: 'MMD Workflow Tools' }],
+    ['meta', { name: 'twitter:image', content: './images/logo_og.png' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

@@ -3,13 +3,41 @@
 layout: home
 
 head:
+  # OpenGraph
   - - meta
-    - property: 'og:image'
-      content: ./images/logo_og.png
+    - property: og:title
+      content: 'MMD Workflow'
+  - - meta
+    - property: og:description
+      content: 'MMD Workflow Tools'
+  - - meta
+    - property: og:url
+      content: 'https://mmd-workflow.github.io/pages/'
+  - - meta
+    - property: og:type
+      content: 'website'
+  - - meta
+    - property: og:image
+      content: './images/logo_og.png'
+  
+  # Twitter
+  - - meta
+    - name: twitter:card
+    - content: summary_large_image
+  - - meta
+    - name: twitter:title
+    - content: 'MMD Workflow'
+  - - meta
+    - name: twitter:description
+    - content: 'MMD Workflow Tools'
+  - - meta
+    - name: twitter:image
+    - content: './images/logo_og.png'
+
 
 hero:
-  name: "MMD Workflow"
-  text: "MMD USD File Format Plugin"
+  name: 'MMD Workflow'
+  text: 'MMD USD File Format Plugin'
   tagline: List of Plugins Provided by the MMD Workflow
   actions:
     - theme: brand
