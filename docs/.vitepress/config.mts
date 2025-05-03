@@ -12,12 +12,17 @@ export default defineConfig({
     ['meta', { property: 'og:url', content: 'https://mmd-workflow.github.io/pages/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:image', content: 'https://mmd-workflow.github.io/pages/logo_og.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
     // Twitter Meta Tags
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'MMD Workflow' }],
     ['meta', { name: 'twitter:description', content: 'MMD Workflow Tools' }],
     ['meta', { name: 'twitter:image', content: 'https://mmd-workflow.github.io/pages/logo_og.png' }],
   ],
+  appearance: {
+    initialValue: 'undefined'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
