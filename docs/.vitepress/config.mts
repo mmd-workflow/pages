@@ -6,7 +6,7 @@ export default defineConfig({
   title: "MMD Workflow",
   description: "MMD Workflow Tools",
   head:[
-    ["meta", { property: "og:image", content: '/images/logo_og.png' }],
+    ["meta", { property: "og:image", content: './images/logo_og.png' }],
     ["meta", { property: "og:site_name", content: "MMD Workflow" }],
   ],
   themeConfig: {
