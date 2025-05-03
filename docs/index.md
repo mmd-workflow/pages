@@ -15,7 +15,7 @@ head:
     - content: 'MMD Workflow Tools'
   - - meta
     - name: twitter:image
-    - content: '/public/logo_og.png'
+    - content: 'https://mmd-workflow.github.io/pages/logo_og.png'
 
   # OpenGraph
   - - meta
@@ -32,7 +32,7 @@ head:
       content: 'website'
   - - meta
     - property: og:image
-      content: '/public/logo_og.png'
+      content: 'https://mmd-workflow.github.io/pages/logo_og.png'
 
 
 hero:
