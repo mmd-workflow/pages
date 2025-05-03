@@ -1,0 +1,9 @@
+:root {
+    /* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+    /* Brand Color */
+    --vp-c-brand-1: #1897AE;
+    --vp-c-brand-2: #54AAB4;
+    --vp-c-brand-3: #1897AE;
+
+    --docsearch-primary-color: #1897AE;
+}

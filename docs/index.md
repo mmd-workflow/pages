@@ -6,7 +6,7 @@ head:
   # Twitter
   - - meta
     - name: twitter:card
-    - content: summary_large_image
+    - content: 'summary_large_image'
   - - meta
     - name: twitter:title
     - content: 'MMD Workflow'
@@ -33,6 +33,12 @@ head:
   - - meta
     - property: og:image
       content: 'https://mmd-workflow.github.io/pages/logo_og.png'
+  - - meta
+    - property: og:image:width
+      content: '1200'
+  - - meta
+    - property: og:image:width
+      content: '630'
 
 
 hero:
